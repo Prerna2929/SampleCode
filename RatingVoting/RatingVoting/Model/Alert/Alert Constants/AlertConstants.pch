@@ -1,0 +1,18 @@
+//
+//  AlertConstants.pch
+//
+//  Created by c28 on 21/04/14.
+//  Copyright (c) 2014 c28. All rights reserved.
+//
+
+#ifndef NIAlertConstants_pch
+#define NIAlertConstants_pch
+
+
+//Commennt when module is not required
+//#import "Alert+Social.h"
+#import "Alert+Registration_Login.h"
+//#import "Alert+Checkin.h"
+#import "Alert+Password.h"
+//#import "Alerts+Bringaz.h"
+#endif

@@ -1,0 +1,43 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Headers.h"
+#endif
+
+#pragma mark - KEY DETAILS
+
+#define keyHashTagCache @"hashTags"
+#define keyMyPosts @"myPosts"
+#define keyAllPosts @"allPosts"
+#define keyFollowingPosts @"allFollowingPosts"
+#define keyNewPosts @"allNewPosts"
+#define keyMyAchievements @"myAchievements"
+#define keyFavPost @"myFavPost"
+#define keyMyFollowers @"myFollowers"
+#define keyCurrentUserObj @"LoggedInUserDetail"
+#define keyUserNames @"UserNames"
+#define VideoPath @"videopath"
+#define keySearchUserList @"searchUserList"
+#define keySearchTagList @"searchTagList"
+#define keyBattleFromPostDetail @"fromPostList"
+#define keyBattleToPostDetail @"toPostList"
+#define keyAllbattlePostDetail @"WholeBattlePosts"
+
+
+#define notificationReloadNotificationTable @"reloadNotificationTable"
+#define notificationCloseCameraView @"closeCamera"
+
+#define viewWidth(view)                     view.frame.size.width
+#define viewHeight(view)                    view.frame.size.height
